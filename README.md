@@ -73,16 +73,27 @@ pow(W_POW,<生存時間>/<とった餌の数+1>*W_TIME + <ヘビの長さ>*W_LEN
 
 ##探索結果
 各世代において、最も優秀な遺伝子を表示させる。
+
 0th Gen Max score gene is 35	 len : 9.15	time : 88.68	gene : (if-6 f l)
+
 5th Gen Max score gene is 6	 len : 16.82	time : 417.96	gene : (if-6 f (if-6 l (if-0 l (if-4 l f))))
+
 10th Gen Max score gene is 28	 len : 26.24	time : 432.7	gene : (if-6 f (if-6 l (if-8 r (if-3 l (if-1 l f)))))
+
 20th Gen Max score gene is 15	 len : 26.74	time : 436.31	gene : (if-6 f (if-6 l (if-8 (if-7 (if-1 (if-4 r (if-4 (if-2 (if-0 f (if-5 (if-6 (if-1 l (if-3 l (if-3 f r))) r) l)) f) f)) f) (if-7 f (if-4 (if-7 l f) r))) (if-3 l (if-1 l f)))))
+
 30th Gen Max score gene is 42	 len : 26.31	time : 427.33	gene : (if-6 f (if-6 f (if-8 r (if-3 l (if-1 l f)))))
+
 40th Gen Max score gene is 27	 len : 39.37	time : 1114.93	gene : (if-6 f (if-6 l (if-3 l (if-4 l (if-1 l f)))))
+
 50th Gen Max score gene is 47	 len : 39.77	time : 1136.96	gene : (if-6 f (if-6 f (if-3 l (if-4 l (if-1 l f)))))
+
 100th Gen Max score gene is 43	 len : 39.66	time : 1133.14	gene : (if-6 (if-6 f (if-6 l (if-3 r (if-0 f r)))) (if-6 (if-3 (if-4 (if-0 r f) (if-0 l (if-7 r (if-0 l r)))) (if-4 f (if-1 l f))) (if-3 (if-6 r f) (if-4 l (if-1 l f)))))
+
 150th Gen Max score gene is 37	 len : 42.49	time : 1240.24	gene : (if-6 (if-2 f r) (if-6 l (if-3 f (if-4 l (if-1 l f)))))
+
 200th Gen Max score gene is 43	 len : 46.51	time : 1847.89	gene : (if-6 (if-2 f r) (if-6 (if-4 l (if-0 (if-8 f r) (if-8 (proc f r) (if-1 (if-7 l r) (if-6 (if-1 r (if-7 r (if-8 l f))) r))))) (if-3 r (if-1 l (if-8 (if-5 l (if-5 r (if-3 l f))) (if-8 l r))))))
+
 300th Gen Max score gene is 36	 len : 48.89	time : 1934.27	gene : (if-6 (if-2 f r) (if-6 (if-4 (if-2 f r) r) (if-3 f (if-1 l (if-8 (if-5 r f) (if-8 (if-5 (if-3 r (if-5 (proc l f) r)) (if-4 l r)) r))))))
 
 
