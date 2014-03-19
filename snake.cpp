@@ -105,15 +105,15 @@ bool Snake::move(mov_v mov){
 
 bool Snake::get_l_snake(){
   int v = (vec+3)%4;
-  return board[head_pos.x+vx[v]][head_pos.y+vx[v]]!=0; 
+  return board[head_pos.x+vx[v]][head_pos.y+vx[v]]!=0 && !(head_pos.x+vx[v] == tail_pos.x && head_pos.y+vy[v] == tail_pos.y); 
 }
 bool Snake::get_f_snake(){
   int v = vec;
-  return board[head_pos.x+vx[v]][head_pos.y+vx[v]]!=0; 
+  return board[head_pos.x+vx[v]][head_pos.y+vx[v]]!=0 && !(head_pos.x+vx[v] == tail_pos.x && head_pos.y+vy[v] == tail_pos.y); 
 }
 bool Snake::get_r_snake(){
   int v = (vec+1)%4;
-  return board[head_pos.x+vx[v]][head_pos.y+vx[v]]!=0; 
+  return board[head_pos.x+vx[v]][head_pos.y+vx[v]]!=0 && !(head_pos.x+vx[v] == tail_pos.x && head_pos.y+vy[v] == tail_pos.y); 
 }
 bool Snake::get_l_wall(){
   int v = (vec+3)%4;
