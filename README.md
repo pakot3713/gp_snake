@@ -5,9 +5,9 @@
 
 ##How to use
 ####探索の実行
-./gp_snake OMP_NUM_THREADS=(スレッド数)
+./gp_snake 
 
-探索を実行する。スレッド数の指定で並列処理での探索が可能。
+探索を実行する。OpenMPで並列処理での探索が可能。
 #####出力の読み方
 (世代数)th Gen Max score gene is (最も優秀な遺伝子の番号)	 len : (成長したヘビの最大長の平均)	time : (生存時間の平均)	gene : (S式-likeな遺伝子の表現)
 
